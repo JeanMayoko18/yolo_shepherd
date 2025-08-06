@@ -63,8 +63,8 @@ More info & generation pipeline: [dataset_strategy on GitHub](https://github.com
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/shepherd.git
-cd shepherd
+git clone https://github.com/JeanMayoko18/yolo_shepherd.git
+cd yolo_shepherd
 
 3. Prepare Dataset
 
