@@ -65,7 +65,7 @@ More info & generation pipeline: [dataset_strategy on GitHub](https://github.com
 ```bash
 git clone https://github.com/JeanMayoko18/yolo_shepherd.git
 cd yolo_shepherd
-
+```bash
 3. Prepare Dataset
 
 Ensure the dataset is placed in datasets/herding_dataset/ with the structure above. You can also generate your own using the provided dataset_strategy tools.
@@ -79,7 +79,7 @@ Ensure the dataset is placed in datasets/herding_dataset/ with the structure abo
 | **SHEPHERD** | **57.1%**       | **72.0%**      | **292.9** | **6.29MB** |
 | RTDETR-L     | 53.2%           | 64.5%          | 94.1      | 123MB      |
 
-📜 Citation
+## Citation
 
 If you use this repository in your work, please cite:
 @article{mayoko2025shepherd,
@@ -90,7 +90,7 @@ If you use this repository in your work, please cite:
   pages ={1 - 30}
 }
 
-#  Acknowledgments
+#Acknowledgments
 This project has been partially funded by the Recovery, Transformation, and Resilience Plan, financed by the European Union (Next Generation), thanks to the AURORAS project, and by grant PID2024-161761OB-C21 funded by MICIU/AEI/10.13039/501100011033 and by the ERDF/EU.
 
 <div style="text-align:center;">
