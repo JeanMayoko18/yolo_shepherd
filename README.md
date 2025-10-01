@@ -85,12 +85,16 @@ You can also generate your own using the provided **dataset_strategy** tools.
 
 ## 📊 Performance Comparison
 
-| Model        | mAP@0.5 (Test) | mAP@0.5 (Val) | FPS   | Size   |
-|--------------|----------------|---------------|-------|--------|
-| YOLOv8n      | 54.9%          | 69.4%         | 299.7 | 6.23MB |
-| YOLOv11      | 55.0%          | 69.7%         | 271.5 | 8.16MB |
-| **SHEPHERD** | **57.1%**      | **72.0%**     | 292.9 | 6.29MB |
-| RTDETR-L     | 53.2%          | 64.5%         | 94.1  | 123MB  |
+Comparison of inference speed, detection performance, and model complexity:
+
+| Model        | Average FPS ⬆️ | mAP@0.5 ⬆️ | F1 score ⬆️ | Model size (MB) ⬇️ | Parameters ⬇️ |
+|--------------|----------------|------------|-------------|--------------------|---------------|
+| **YOLOv8n**  | 🚀 **347.7**    | 0.549      | 0.700       | 6.0                | 3.01M         |
+| YOLOv10      | 322.4          | 0.537      | 0.695       | 5.5                | 2.70M         |
+| YOLOv11      | 286.7          | 0.550      | 0.696       | ⚡ **5.2**          | 2.59M         |
+| YOLOv12      | 215.2          | 0.547      | 0.697       | 5.2                | 🏆 **2.56M**   |
+| RT-DETR      | 67.9           | 0.515      | 0.691       | 63.1               | 32.81M        |
+| **SHEPHERD** | 277.0          | 🏆 **0.568** | 🏆 **0.701** | 6.3                | 3.21M         |
 
 ---
 
