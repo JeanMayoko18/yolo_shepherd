@@ -89,3 +89,11 @@ If you use this repository in your work, please cite:
   year={2025},
   pages ={1 - 30}
 }
+
+#  Acknowledgments
+This project has been partially funded by the Recovery, Transformation, and Resilience Plan, financed by the European Union (Next Generation), thanks to the AURORAS project, and by grant PID2024-161761OB-C21 funded by MICIU/AEI/10.13039/501100011033 and by the ERDF/EU.
+
+<div style="text-align:center;">
+  <img src="https://project-auroras.github.io/auroras/logos/tituloblanco.png" alt="Logo AURORAS" width="500" style="margin-right:20px;"/>
+  <img src="logos/MICIUCofinanciadoAEI.jpg" alt="Logo Funding" width="500"/>
+</div>
